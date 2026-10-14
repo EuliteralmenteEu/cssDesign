@@ -1,0 +1,79 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f6f9;
+color: #333;
+margin: 0;
+padding: 20px;
+}
+
+#estoque p {
+font-size: 36px;
+font-weight: bold;
+color: #2c3e50;
+margin-bottom: 20px;
+}
+
+#tabela {
+background-color: #ffffff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+overflow-x: auto;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+th {
+background-color: #023e7e;
+color: white;
+padding: 12px;
+text-align: left;
+font-weight: 600;
+border: 1px solid #0056b3;
+}
+
+
+td {
+padding: 12px;
+text-align: left;
+border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+background-color: #f8f9fa;
+}
+
+#adicionar .btn {
+background-color: #0056b3;
+color: white;
+border: none;
+padding: 10px 20px;
+font-size: 16px;
+border-radius: 4px;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+#adicionar .btn:hover {
+background-color: #023e7e;
+}
+
+#senai{
+    width: 100%;
+    height: 18%;
+    background-color: #ffffff;
+}
+
+#imagemSenai{
+    width: 15%;
+    height: auto;
+}
+
+#imagemSenai img{
+    width: 15%;
+    height: auto;
+}
